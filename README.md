@@ -1,16 +1,30 @@
 # articunointern
 
-A new Flutter project.
+A demo project for Articuno Coding internship selection.
 
-## Getting Started
+## Project Overview
 
-This project is a starting point for a Flutter application.
+Aim: 
+- Create a stateful widget which has a container and a background color
+- Store the background color in a state variable in this container
+- Generate the background color as a random color in initState of container instead of passing it down as
+props. 
+- From a parent widget have an array of such containers and render them in a row, note that the array
+should contain widgets and not the colors.
+- Have a button in parent widget, on click of the button the containers should be swapped.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Documentation
+To run the code:
+- Clone this repo.
+- Open CMD from the local repo clone
+- Run:
+  ```
+  flutter run
+  ```
+  
+## Screenshots
+<p>
+<img src="https://github.com/beSaif/articunointern/blob/main/assets/ss/before.png" width="250">
+&emsp;
+<img src="https://github.com/beSaif/articunointern/blob/main/assets/ss/after.png" width="250">
+</p>
